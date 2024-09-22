@@ -77,6 +77,7 @@ img {
   height: 100%;
   width: 100%;
 }
+
 .tall-box {
   height: 368.75px;
   overflow: hidden;
@@ -84,7 +85,7 @@ img {
   font-weight: 500;
   text-align: center;
   background: #131313;
-  font-weight: 600; 
+  font-weight: 600;
   padding: 20px;
   color: #d6d6d6;
   font-size: 17px;
@@ -108,7 +109,7 @@ img {
   width: 100%;
 }
 
-.bottom-left{
+.bottom-left {
   width: 472.66px;
   height: 191.56px;
 }
@@ -124,92 +125,98 @@ img {
   height: 143.66px;
 }
 
-.quotes{
+.quotes {
   background: #131313;
-  font-weight: 600; 
+  font-weight: 600;
   padding: 20px;
   color: #d6d6d6;
   display: flex;
-  align-items: center;     
-  height: 100%;            
-  text-align: center; 
+  align-items: center;
+  height: 100%;
+  text-align: center;
   font-size: large;
 }
 
 
-img , video{
+img,
+video {
   width: 100%;
   height: 100%;
-  object-fit: fill; 
-  object-position: center; 
+  object-fit: fill;
+  object-position: center;
 }
 
 /*   mobile   */
 @media (max-width:700px) {
-.app-container{
-  padding: 20px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-.top-left{
-  flex-direction: column;
-}
+  .app-container {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 
-.right-main{
-  flex-direction: column;
-  width:100%;
-}
-.top-section {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-  height: 75%;
-}
+  .top-left {
+    flex-direction: column;
+  }
 
-.top-right{
-  width: 100%;
-}
+  .right-main {
+    flex-direction: column;
+    width: 100%;
+  }
 
-.bottom-section {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  height: 30%;
-}
+  .top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 75%;
+  }
 
-.top-left {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-}
+  .top-right {
+    width: 100%;
+  }
 
-.top-center {
-  display: flex;
-  gap: 20px;
-  height: 30%;
-  width: 100%;
-}
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 30%;
+  }
 
-.center-main {
-  height: 70%;
-  overflow: hidden;
-  width: 529.38px;
-}
+  .top-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
 
-.box {
-  width: 100%;
-}
-.left-main{width: 100%;}
+  .top-center {
+    display: flex;
+    gap: 20px;
+    height: 30%;
+    width: 100%;
+  }
+
+  .center-main {
+    height: 70%;
+    overflow: hidden;
+    width: 529.38px;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .left-main {
+    width: 100%;
+  }
 }
 
 
 /* tablet view */
 @media (min-width:660px) and (max-width:1230px) {
-  .app-container{
+  .app-container {
     padding-left: 30px;
     padding-right: 30px;
     padding: 40px;
@@ -217,77 +224,76 @@ img , video{
     align-items: center;
     justify-content: center;
   }
-  .right-main{
+
+  .right-main {
     flex-direction: row;
     width: 100%;
   }
-  .left-main{
-    width: 100%;
-  }
-  .top-left{
+
+  .left-main {
     width: 100%;
   }
 
-  .quotes{
+  .top-left {
+    width: 100%;
+  }
+
+  .quotes {
     height: 191px;
   }
 
-  .short-box{
+  .short-box {
     height: 368px;
   }
 }
 
-@media (min-width:1590px){
-  .app-container{
+@media (min-width:1590px) {
+  .app-container {
     height: 100%;
   }
 
-  .right-main{
-    
-  }
-
-  .tall-box{
+  .tall-box {
     height: 34vh;
   }
-  .short-box{
+
+  .short-box {
     height: 50vh !important;
   }
 
-  .top-center{
+  .top-center {
     height: 23vh;
   }
 
-  .top-center-box{
+  .top-center-box {
     height: 100% !important;
   }
-  
 
-  
-.bottom-section{
-  height: 100%;
-}
+  .bottom-section {
+    height: 100%;
+  }
 
-.bottom-right{
-  height:14vh ;
-}
+  .bottom-right {
+    height: 14vh;
+  }
 
-.quotes{
-  height: 14vh;
-}
-  
-  .top-left{
+  .quotes {
+    height: 14vh;
+  }
+
+  .top-left {
     height: 70vh !important;
-    background: #000;
   }
-  .left-tall-box{
+
+  .left-tall-box {
     height: 600px;
   }
-  .left-short-box{
+
+  .left-short-box {
     height: 600px;
   }
-  
-  .center-main{
+
+  .center-main {
     height: 46vh;
-  } 
- 
+  }
+
 }
